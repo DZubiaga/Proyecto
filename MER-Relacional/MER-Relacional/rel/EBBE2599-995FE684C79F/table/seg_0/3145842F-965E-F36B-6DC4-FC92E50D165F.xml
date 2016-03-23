@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3145842F-965E-F36B-6DC4-FC92E50D165F" name="Logistica-Transporte">
+<createdBy>1GLM03</createdBy>
+<createdTime>2016-03-23 10:42:47 UTC</createdTime>
+<generatorID>F8BE8863-A7D2-A3AE-846A-997EF68FD675</generatorID>
+<ownerDesignName>MER-Relacional</ownerDesignName>
+<importedID>8F9A240C-1DDE-EE77-0963-5B07EFE8B6EE</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dni" id="04AF8C5D-F69B-9C7C-D28F-637136A42676">
+<createdBy>1GLM03</createdBy>
+<createdTime>2016-03-23 10:42:48 UTC</createdTime>
+<generatorID>E3A34307-6F0F-6389-C982-E3E178665E7C</generatorID>
+<ownerDesignName>MER-Relacional</ownerDesignName>
+<importedID>C90B31AF-7ED9-14C3-77F2-D2E12C6D0775</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F08C3EE-A09C-0A8C-58BC-D786F1376CB5" referredColumn="34330754-A078-45C7-4329-4029DCB762D5"/>
+</associations>
+</Column>
+<Column name="dni1" id="5AFD9E87-30D8-3A38-FEB9-0FF130FC3FD8">
+<createdBy>1GLM03</createdBy>
+<createdTime>2016-03-23 10:42:48 UTC</createdTime>
+<generatorID>E3A34307-6F0F-6389-C982-E3E178665E7C</generatorID>
+<ownerDesignName>MER-Relacional</ownerDesignName>
+<importedID>D0C60E5B-9850-4EE8-B018-F01D38AB6591</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8E8DB58-35D8-4487-A0CC-FF2434CB65B9" name="Logistica-Transporte_PKv1">
+<createdBy>1GLM03</createdBy>
+<createdTime>2016-03-23 10:42:48 UTC</createdTime>
+<generatorID>9F963C86-D454-3160-C313-B4DFC5FD1C6F</generatorID>
+<ownerDesignName>MER-Relacional</ownerDesignName>
+<importedID>3F3CE04A-8E0E-7773-6F93-E402C1FCC130</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5AFD9E87-30D8-3A38-FEB9-0FF130FC3FD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55FFFAE2-DEFE-B2B0-D48B-6315CE91F64D" name="Logistica-Transporte_PK">
+<createdBy>1GLM03</createdBy>
+<createdTime>2016-03-23 10:42:48 UTC</createdTime>
+<generatorID>9F963C86-D454-3160-C313-B4DFC5FD1C6F</generatorID>
+<ownerDesignName>MER-Relacional</ownerDesignName>
+<importedID>11214061-EB7D-4A86-E5DF-81E91C6A3227</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04AF8C5D-F69B-9C7C-D28F-637136A42676"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9344B113-8A97-B658-E6AC-6D410183F091" name="Logistica-Transporte_Trabajadores_FK">
+<createdBy>1GLM03</createdBy>
+<createdTime>2016-03-23 10:42:48 UTC</createdTime>
+<generatorID>9B2052E1-93DA-0033-1EF4-1A664CF2398E</generatorID>
+<ownerDesignName>MER-Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04AF8C5D-F69B-9C7C-D28F-637136A42676"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

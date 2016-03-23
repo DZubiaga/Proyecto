@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MER-Relacional" id="BFEC8F84-895F-1E27-68C6-52D7AA6B898F" version="3.5">
+<createdBy>1GLM03</createdBy>
+<createdTime>2016-03-23 10:41:53 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER-Relacional</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>BFEC8F84-895F-1E27-68C6-52D7AA6B898F</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="C233DF10-5D26-1023-8E17-C9A9472669CC">
+<designStoragePath>C:\Users\1GLM03\Desktop\Proyecto(Anas, David, Iñigo)\MER-relacional</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

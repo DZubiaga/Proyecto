@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Realiza" directorySegmentName="seg_0" id="0A2E6405-E81B-4D4A-4B24-0894FA162FD0">
+<createdBy>1GLM03</createdBy>
+<createdTime>2016-03-23 10:42:47 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER-Relacional</ownerDesignName>
+<importedID>FE9C0F31-0FD6-764E-1A14-F20A1C3F2BBE</importedID>
+<engineerTo>
+<item key="EBBE2599-1F88-0978-A591-995FE684C79F" value="true"/>
+</engineerTo>
+<sourcePk>9F963C86-D454-3160-C313-B4DFC5FD1C6F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F8BE8863-A7D2-A3AE-846A-997EF68FD675</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>629DB372-D26E-EA2F-0A74-603C36F24752</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

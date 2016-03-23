@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="08593EDF-42E9-1024-F53E-9181120D6084" name="Administra">
+<createdBy>1GLM03</createdBy>
+<createdTime>2016-03-23 10:42:47 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER-Relacional</ownerDesignName>
+<importedID>8C36D774-D692-D0DF-2B4A-420C3CB8A19D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Administracion_dni" id="DFC56057-3953-12EC-FFD8-58D3628F69AF">
+<createdBy>1GLM03</createdBy>
+<createdTime>2016-03-23 10:42:48 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER-Relacional</ownerDesignName>
+<importedID>31E4DE82-6928-6E36-6182-A0A67A1AF75A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC46806C-E091-D5EA-AE87-096B4BA786A6" referredColumn="8F6E0945-10EF-516A-7399-C4F3900F9D57"/>
+</associations>
+</Column>
+<Column name="Parte_idParte" id="88404DFF-5BA6-0B09-185D-843D5BF869B2">
+<createdBy>1GLM03</createdBy>
+<createdTime>2016-03-23 10:42:48 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER-Relacional</ownerDesignName>
+<importedID>54F69EAF-3417-6784-F18F-D2F2721597F5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A916204-2C0E-9926-5C39-37160D630B9C" referredColumn="6DE279BB-F54A-2E9B-E949-C6098A367D7C"/>
+</associations>
+</Column>
+<Column name="Administracion_dni1" id="6FC819E1-7556-642D-B59C-96239711B1DD">
+<createdBy>1GLM03</createdBy>
+<createdTime>2016-03-23 10:42:48 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER-Relacional</ownerDesignName>
+<importedID>87FE9EEC-3280-E65E-7495-F0AB8B6A5D32</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="945AEA40-25DD-7285-2441-EED6AFD1CCBF" name="Administra_PK">
+<createdBy>1GLM03</createdBy>
+<createdTime>2016-03-23 10:42:48 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER-Relacional</ownerDesignName>
+<importedID>3F005956-28C0-7ACE-A540-B8615C7D792F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFC56057-3953-12EC-FFD8-58D3628F69AF"/>
+<colUsage columnID="88404DFF-5BA6-0B09-185D-843D5BF869B2"/>
+<colUsage columnID="6FC819E1-7556-642D-B59C-96239711B1DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABEDAF70-4507-7A6E-4956-73095725C6A0" name="FK_ASS_1">
+<createdBy>1GLM03</createdBy>
+<createdTime>2016-03-23 10:42:48 UTC</createdTime>
+<generatorID>F3BE6ABC-7750-748B-9141-AE11C33388D5</generatorID>
+<ownerDesignName>MER-Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFC56057-3953-12EC-FFD8-58D3628F69AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F16246A-0B0F-021F-C6D3-2B7E4D8C9476" name="FK_ASS_6">
+<createdBy>1GLM03</createdBy>
+<createdTime>2016-03-23 10:42:48 UTC</createdTime>
+<generatorID>F3BE6ABC-7750-748B-9141-AE11C33388D5</generatorID>
+<ownerDesignName>MER-Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88404DFF-5BA6-0B09-185D-843D5BF869B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C58E45D2-4396-6908-2AFC-156C459D3540" name="Cerrado">
+<createdBy>1GLM03</createdBy>
+<createdTime>2016-03-23 10:42:47 UTC</createdTime>
+<generatorID>52F7666B-0070-E05F-38B3-049739112509</generatorID>
+<ownerDesignName>MER-Relacional</ownerDesignName>
+<importedID>F8C49FBD-A12E-3FD3-B511-1E8F99FC39AA</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idParte" id="C0CA714A-1149-3732-5525-BF9BA8D83AD7">
+<createdBy>1GLM03</createdBy>
+<createdTime>2016-03-23 10:42:48 UTC</createdTime>
+<generatorID>49F76088-71B4-C7D8-6253-4047CCF9BED1</generatorID>
+<ownerDesignName>MER-Relacional</ownerDesignName>
+<importedID>11BBD587-CBE2-9594-63C5-5E08E51F4C34</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C064ED0-8B18-BEAC-39A0-8732ED9F8B2A" referredColumn="6DE279BB-F54A-2E9B-E949-C6098A367D7C"/>
+</associations>
+</Column>
+<Column name="idParte1" id="929BF562-9F91-C0EA-DBCF-DC38BB2788AC">
+<createdBy>1GLM03</createdBy>
+<createdTime>2016-03-23 10:42:48 UTC</createdTime>
+<generatorID>49F76088-71B4-C7D8-6253-4047CCF9BED1</generatorID>
+<ownerDesignName>MER-Relacional</ownerDesignName>
+<importedID>3E92D722-3BA8-110D-2DFA-7C7838595CD6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2AFD1581-CDDD-ED43-7F99-286B7F5D7C89" name="Cerrado_PKv1">
+<createdBy>1GLM03</createdBy>
+<createdTime>2016-03-23 10:42:48 UTC</createdTime>
+<generatorID>0D476EFC-AFE5-52F4-8F02-D6943F41DD37</generatorID>
+<ownerDesignName>MER-Relacional</ownerDesignName>
+<importedID>A59953EE-08E0-F368-9551-EFB5BC98E6E0</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="929BF562-9F91-C0EA-DBCF-DC38BB2788AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2CDA260-5410-76E8-B3BA-97D49A64E683" name="Cerrado_PK">
+<createdBy>1GLM03</createdBy>
+<createdTime>2016-03-23 10:42:48 UTC</createdTime>
+<generatorID>0D476EFC-AFE5-52F4-8F02-D6943F41DD37</generatorID>
+<ownerDesignName>MER-Relacional</ownerDesignName>
+<importedID>9C76A71D-20B7-A864-69AA-905F2DF0430E</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0CA714A-1149-3732-5525-BF9BA8D83AD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49E18FC7-60B4-C761-C9A0-5530143868A5" name="Cerrado_Parte_FK">
+<createdBy>1GLM03</createdBy>
+<createdTime>2016-03-23 10:42:48 UTC</createdTime>
+<generatorID>7248A8E5-17A1-0691-E79F-B31EAB0E65E0</generatorID>
+<ownerDesignName>MER-Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0CA714A-1149-3732-5525-BF9BA8D83AD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
