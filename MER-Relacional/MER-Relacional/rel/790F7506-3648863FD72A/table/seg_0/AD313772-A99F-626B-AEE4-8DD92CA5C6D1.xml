@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD313772-A99F-626B-AEE4-8DD92CA5C6D1" name="Usuario">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>1F2C3CC3-6941-CB76-01A0-0FA3707B634C</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="trabajador" id="34FC4B96-6F2B-ACA5-1FD0-C6C86D5255A1">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>1ABE152A-E66B-9896-A137-C4259645A3AD</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="73D95F64-F538-5001-240C-C26AB8BB2E53">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>FF78806B-CCA5-2E8F-29FB-3DA57B4D68CE</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Trabajador_dni" id="6D6C920C-1327-3556-C356-2EF3FC4A0982">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>972805AE-F868-1E3C-411A-FE9F4047E7AE</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1448A84-30E9-8F9D-C0A2-D24FF574182C" referredColumn="E491785A-C674-8C79-84AB-34D5E8A646C7"/>
+</associations>
+</Column>
+<Column name="Trabajador_nombre" id="B66B0DB5-877A-985C-7103-182CFFC2B420">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>7B93EB0D-3233-0A7F-8A9A-2C4470B072BA</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1448A84-30E9-8F9D-C0A2-D24FF574182C" referredColumn="51BA1399-F9D0-B4D4-633E-AB4402D87756"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8BDDDC6C-5759-1D54-6D39-DFBDEF509030" name="Usuario_PK">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>66AE18B3-2248-8EBF-8130-6389E9CB0CB1</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34FC4B96-6F2B-ACA5-1FD0-C6C86D5255A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1081DCB5-ECE0-5CA3-C7FA-75EE489C220E" name="Usuario__IDX">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B49C0039-1C4F-1FB7-8C89-A5E4E040B234</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="6D6C920C-1327-3556-C356-2EF3FC4A0982"/>
+<colUsage columnID="B66B0DB5-877A-985C-7103-182CFFC2B420"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C13D00DC-CE44-6355-D53A-BA2367C4BD66" name="Usuario_Trabajador_FK">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:39:39 UTC</createdTime>
+<generatorID>B49C0039-1C4F-1FB7-8C89-A5E4E040B234</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D6C920C-1327-3556-C356-2EF3FC4A0982"/>
+<colUsage columnID="B66B0DB5-877A-985C-7103-182CFFC2B420"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

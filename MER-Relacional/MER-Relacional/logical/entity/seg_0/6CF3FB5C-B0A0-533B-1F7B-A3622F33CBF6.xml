@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6CF3FB5C-B0A0-533B-1F7B-A3622F33CBF6" name="Viaje">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 10:55:58 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER-Relacional-Actualizado</ownerDesignName>
+<engineerTo>
+<item key="790F7506-F93A-DF10-E556-3648863FD72A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="albaran " id="16FADAD2-7FE9-AB55-7FBC-52FF67D6A64C">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:22:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER-Relacional-Actualizado</ownerDesignName>
+<engineerTo>
+<item key="790F7506-F93A-DF10-E556-3648863FD72A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horaSalida" id="96E9F081-5406-887F-BC1F-008A7EECC65E">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:22:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER-Relacional-Actualizado</ownerDesignName>
+<engineerTo>
+<item key="790F7506-F93A-DF10-E556-3648863FD72A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horaLlegada" id="7F289229-DC37-BEC2-D118-E744D4DE48C8">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:22:48 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER-Relacional-Actualizado</ownerDesignName>
+<engineerTo>
+<item key="790F7506-F93A-DF10-E556-3648863FD72A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idParte" id="1730C538-2610-7C7C-A2B4-8A2E4C14C019">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:30:29 UTC</createdTime>
+<generatorID>1BAE6A92-48CB-8FC2-9CAB-5BC67DF877AD</generatorID>
+<ownerDesignName>MER-Relacional-Actualizado</ownerDesignName>
+<engineerTo>
+<item key="790F7506-F93A-DF10-E556-3648863FD72A" value="true"/>
+</engineerTo>
+<referedAttribute>0F204569-EF53-FC72-F8FD-27216EFEFF37</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula2" id="3C901E24-8F40-1DF0-DDD0-6256A8123B91">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:31:11 UTC</createdTime>
+<generatorID>3F12C372-E63B-F3C0-B35C-D80FE632DB99</generatorID>
+<ownerDesignName>MER-Relacional-Actualizado</ownerDesignName>
+<engineerTo>
+<item key="790F7506-F93A-DF10-E556-3648863FD72A" value="true"/>
+</engineerTo>
+<referedAttribute>965E9E7E-B415-D335-A02E-1B79159FFEC5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4273D2A0-E99D-94D4-FBB6-9C5396AD0934" name="Viaje PK">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:22:26 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER-Relacional-Actualizado</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="790F7506-F93A-DF10-E556-3648863FD72A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>16FADAD2-7FE9-AB55-7FBC-52FF67D6A64C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

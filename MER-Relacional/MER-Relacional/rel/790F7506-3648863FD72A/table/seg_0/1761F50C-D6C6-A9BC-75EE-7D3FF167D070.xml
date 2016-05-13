@@ -1,0 +1,251 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1761F50C-D6C6-A9BC-75EE-7D3FF167D070" name="Trabajador">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>53414689-FDB5-C686-BE40-63DE3B13C950</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dni" id="E491785A-C674-8C79-84AB-34D5E8A646C7">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>B57AEAE9-CD13-89E4-E6E5-44E97B155CA3</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="51BA1399-F9D0-B4D4-633E-AB4402D87756">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>486D6F22-35FE-B640-9CA2-815206E3A339</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido1" id="6E1DF061-6719-75DB-C785-84FEDD023C1D">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>FB315836-DCBA-F55D-FCF3-DBC02EE2DFB4</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido2" id="66D8350E-2A37-0ABE-0C69-21C722079460">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>51CDA0C1-530E-B345-A2B3-B2506C3672AD</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="calle" id="FC5D28D1-B1AC-FE99-BDF9-3655E9C30165">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>5E907B66-3615-2326-DC82-1167780F084C</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="portal" id="91EBE125-6C9B-6258-ED27-FF7E23BB2F3C">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>94A948B3-CE7C-B69E-2512-D9A416B1BDE8</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="piso" id="CC74DC47-1EC9-5E10-159D-7DB16635BFC7">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>FA937173-7119-4C46-07C0-EBD4BF33A790</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mano" id="D9086D93-73AE-D57E-C713-BC39037AF915">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>B25C5A3C-F943-7B4D-0702-8E2D75E73732</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefPersonal" id="F9C1921A-CAD4-94AC-29BA-9B261D3A12FC">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>7171DA21-90B4-7703-C7C3-86D7397F1217</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefEmpresa" id="EBC95DC3-C2F6-5399-4040-C16B0606AC19">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>2D320C8E-3E1F-5D3D-2A16-1048125C214C</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaNac" id="FC1E966E-6E67-530C-94C0-6415FC2DA018">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>425F311D-6FBE-BB1E-9CF6-5D52CE950487</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salario" id="D9163A36-E129-A478-30A6-C059A9B3F2C7">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>412BA288-1FF7-7FE7-4BFE-41D98F074EB5</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipoTrabajador" id="33586174-60AB-63BB-10EB-7F63615D3AAB">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>FACE6568-59BA-571C-D3AB-B59320658DBE</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usuario_trabajador" id="E8080DEA-90A1-2BFF-8E92-D67341D58C04">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>3E278DD3-EC7D-ECD0-D6F1-F2938E82674E</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB0B124A-9B1C-4A0D-EB85-EC3563BBDC57" referredColumn="34FC4B96-6F2B-ACA5-1FD0-C6C86D5255A1"/>
+</associations>
+</Column>
+<Column name="Centro_idCentro" id="0810DBB9-72DE-56D1-15A3-D27C388544C5">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>2BAC6826-8AA8-91D5-0A89-FE730C45AC45</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="708053B6-4E51-4B90-15FC-C0D8663E0608" referredColumn="3CAB167C-95FF-21F8-9A5C-A7F1CE31B0A2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1C6E240-44A2-D5D6-16D5-513938407DFB" name="Trabajador_PK">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>761DA8DA-722B-F201-2657-25CE59FF24C1</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E491785A-C674-8C79-84AB-34D5E8A646C7"/>
+<colUsage columnID="51BA1399-F9D0-B4D4-633E-AB4402D87756"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2DE9D363-EC6F-A995-BB2A-4DB195C3F3A0" name="Trabajador__IDX">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B49C0039-1C4F-1FB7-8C89-A5E4E040B234</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E8080DEA-90A1-2BFF-8E92-D67341D58C04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F0344FA-FD41-1D09-A1DB-E683C20A03B3" name="Trabajador_Centro_FK">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>84F2BF88-115B-B262-D91E-AD390592348B</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0810DBB9-72DE-56D1-15A3-D27C388544C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA566F00-A875-18A1-CEEB-06E4D2B4CCD4" name="Trabajador_Usuario_FK">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:39:39 UTC</createdTime>
+<generatorID>B49C0039-1C4F-1FB7-8C89-A5E4E040B234</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8080DEA-90A1-2BFF-8E92-D67341D58C04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

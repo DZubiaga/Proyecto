@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="96C376B9-031C-D624-E2BC-9FC1F93785FE" mainViewID="18420D9C-923A-5A0E-2294-8D71ADA90062">
-<createdBy>1GLM03</createdBy>
-<createdTime>2016-03-23 10:41:53 UTC</createdTime>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="3012A6CB-F67A-7DF8-F3EC-D66BA2FB3199" mainViewID="56412ED3-B596-9DCC-E50B-4220A3E568E4">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 10:52:58 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
-<ownerDesignName>MER-Relacional</ownerDesignName>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
 <shouldBeOpen>false</shouldBeOpen>
 </LogicalDesign>

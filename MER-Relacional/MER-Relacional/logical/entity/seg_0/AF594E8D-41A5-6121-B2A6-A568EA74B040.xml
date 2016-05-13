@@ -1,0 +1,180 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AF594E8D-41A5-6121-B2A6-A568EA74B040" name="Parte">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 10:56:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER-Relacional-Actualizado</ownerDesignName>
+<engineerTo>
+<item key="790F7506-F93A-DF10-E556-3648863FD72A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idParte" id="0F204569-EF53-FC72-F8FD-27216EFEFF37">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:14:47 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER-Relacional-Actualizado</ownerDesignName>
+<engineerTo>
+<item key="790F7506-F93A-DF10-E556-3648863FD72A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="CBF76140-D27B-9B27-8B38-E82E14A3207A">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:15:05 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER-Relacional-Actualizado</ownerDesignName>
+<engineerTo>
+<item key="790F7506-F93A-DF10-E556-3648863FD72A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kmInicio" id="07DC516D-0C31-2038-EBAB-B16396472056">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:15:19 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER-Relacional-Actualizado</ownerDesignName>
+<engineerTo>
+<item key="790F7506-F93A-DF10-E556-3648863FD72A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kmFinal" id="684012A8-A066-E22C-1E11-6006FDB371A1">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:16:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER-Relacional-Actualizado</ownerDesignName>
+<engineerTo>
+<item key="790F7506-F93A-DF10-E556-3648863FD72A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gasolina" id="E9D7B1F5-06EF-ED27-5E68-6F0F00EE2D46">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:16:21 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER-Relacional-Actualizado</ownerDesignName>
+<engineerTo>
+<item key="790F7506-F93A-DF10-E556-3648863FD72A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peaje" id="C73C4DD4-0A9A-209B-CBD2-BAAFC9C3ACAF">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:16:35 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER-Relacional-Actualizado</ownerDesignName>
+<engineerTo>
+<item key="790F7506-F93A-DF10-E556-3648863FD72A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dietas" id="94C1244E-F39F-F9F5-84D3-86F3494FE9B2">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:16:49 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER-Relacional-Actualizado</ownerDesignName>
+<engineerTo>
+<item key="790F7506-F93A-DF10-E556-3648863FD72A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="otros" id="B6FDC017-84F9-CD7C-584D-0EDDBE163CF6">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:17:04 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER-Relacional-Actualizado</ownerDesignName>
+<engineerTo>
+<item key="790F7506-F93A-DF10-E556-3648863FD72A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="incidencia" id="A1AFDFC6-BB86-9ADD-AD71-0433896F0A3E">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:17:12 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER-Relacional-Actualizado</ownerDesignName>
+<engineerTo>
+<item key="790F7506-F93A-DF10-E556-3648863FD72A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="validado" id="4BA26971-067F-9065-8AF1-0DA4BC4D131F">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:21:25 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER-Relacional-Actualizado</ownerDesignName>
+<engineerTo>
+<item key="790F7506-F93A-DF10-E556-3648863FD72A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="653D6B8B-77D0-D37A-3C5B-1551F3FD5FBC" name="Parte PK">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:15:04 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER-Relacional-Actualizado</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="790F7506-F93A-DF10-E556-3648863FD72A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0F204569-EF53-FC72-F8FD-27216EFEFF37</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

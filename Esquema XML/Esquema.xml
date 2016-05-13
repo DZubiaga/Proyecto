@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InformeMensual>
+    <Parte>
+        <mes></mes>
+        <idParte></idParte>
+        <fecha></fecha>
+        <kmInicio></kmInicio>
+        <kmFinal></kmFinal>
+        <gasolina></gasolina>
+        <peaje></peaje>
+        <dietas></dietas>
+        <otros></otros>
+        <incidencias></incidencias>
+        <estado></estado>
+        <trabajador/>
+    </Parte>
+</InformeMensual>

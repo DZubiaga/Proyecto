@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="640A2A0D-3407-4D82-1B75-4236A26A45B0" name="Centro" seqName="seg_0"/>
+   <object objectType="Table" objectID="878AFCE9-A8CB-C40E-5281-AF5C3D57E707" name="Parte" seqName="seg_0"/>
+   <object objectType="Table" objectID="86A9D7CB-948A-C25F-E6F9-691543AB5636" name="Relation_5" seqName="seg_0"/>
+   <object objectType="Table" objectID="1761F50C-D6C6-A9BC-75EE-7D3FF167D070" name="Trabajador" seqName="seg_0"/>
+   <object objectType="Table" objectID="AD313772-A99F-626B-AEE4-8DD92CA5C6D1" name="Usuario" seqName="seg_0"/>
+   <object objectType="Table" objectID="F45A5AA2-47AF-A31D-3A97-2511CD863564" name="Vehiculo" seqName="seg_0"/>
+   <object objectType="Table" objectID="05119B17-7175-1795-EC0E-A94C70F111C3" name="Viaje" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="DCE29EB8-F349-D75F-BD5B-8B645630860B" name="FK_ASS_4" seqName="seg_0" containerID="86A9D7CB-948A-C25F-E6F9-691543AB5636" refContainerID="1761F50C-D6C6-A9BC-75EE-7D3FF167D070"/>
+   <object objectType="FKIndexAssociation" objectID="3BD3F827-69ED-3032-CA94-C76895C87354" name="FK_ASS_5" seqName="seg_0" containerID="86A9D7CB-948A-C25F-E6F9-691543AB5636" refContainerID="878AFCE9-A8CB-C40E-5281-AF5C3D57E707"/>
+   <object objectType="FKIndexAssociation" objectID="708053B6-4E51-4B90-15FC-C0D8663E0608" name="Trabajador_Centro_FK" seqName="seg_0" containerID="1761F50C-D6C6-A9BC-75EE-7D3FF167D070" refContainerID="640A2A0D-3407-4D82-1B75-4236A26A45B0"/>
+   <object objectType="FKIndexAssociation" objectID="AB0B124A-9B1C-4A0D-EB85-EC3563BBDC57" name="Trabajador_Usuario_FK" seqName="seg_0" containerID="1761F50C-D6C6-A9BC-75EE-7D3FF167D070" refContainerID="AD313772-A99F-626B-AEE4-8DD92CA5C6D1"/>
+   <object objectType="FKIndexAssociation" objectID="D1448A84-30E9-8F9D-C0A2-D24FF574182C" name="Usuario_Trabajador_FK" seqName="seg_0" containerID="AD313772-A99F-626B-AEE4-8DD92CA5C6D1" refContainerID="1761F50C-D6C6-A9BC-75EE-7D3FF167D070"/>
+   <object objectType="FKIndexAssociation" objectID="B2C89C55-9C93-DD66-ACB1-9F441B609EBF" name="Viaje_Parte_FK" seqName="seg_0" containerID="05119B17-7175-1795-EC0E-A94C70F111C3" refContainerID="878AFCE9-A8CB-C40E-5281-AF5C3D57E707"/>
+   <object objectType="FKIndexAssociation" objectID="6E34E02F-BA5B-3766-2019-C6332832C16F" name="Viaje_Vehiculo_FK" seqName="seg_0" containerID="05119B17-7175-1795-EC0E-A94C70F111C3" refContainerID="F45A5AA2-47AF-A31D-3A97-2511CD863564"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

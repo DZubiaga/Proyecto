@@ -1,21 +1,14 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
-   <object objectType="Entity" objectID="94310C05-FD83-8CE9-D3B0-5E2208D3E1E8" name="Abierto" seqName="seg_0"/>
-   <object objectType="Entity" objectID="38388178-CDE4-03EB-D200-C86BFE5A0649" name="Administracion" seqName="seg_0"/>
-   <object objectType="Entity" objectID="4A5D6577-EE91-572C-88A8-DA01DD7955F6" name="Centro" seqName="seg_0"/>
-   <object objectType="Entity" objectID="52F7666B-0070-E05F-38B3-049739112509" name="Cerrado" seqName="seg_0"/>
-   <object objectType="Entity" objectID="F8BE8863-A7D2-A3AE-846A-997EF68FD675" name="Logistica-Transporte" seqName="seg_0"/>
-   <object objectType="Entity" objectID="629DB372-D26E-EA2F-0A74-603C36F24752" name="Parte" seqName="seg_0"/>
-   <object objectType="Entity" objectID="9312E5F7-A0B1-F4BA-0977-0600CBAE1904" name="Trabajador" seqName="seg_0"/>
-   <object objectType="Entity" objectID="3F49CD83-026D-5EBF-5D05-CFB74560505B" name="Usuario" seqName="seg_0"/>
-   <object objectType="Entity" objectID="BB17E019-46FD-607B-29F6-26D8839DE141" name="Viaje" seqName="seg_0"/>
-   <object objectType="Relation" objectID="191888BB-6B2E-98DB-F464-FC3EC3F0AD3C" name="Administra" seqName="seg_0"/>
-   <object objectType="Relation" objectID="66E16D8C-DCF3-E18F-3AEC-E3482EED174F" name="Compuesto" seqName="seg_0"/>
-   <object objectType="Relation" objectID="C10950CE-674A-FB94-7E1D-1062B2902F80" name="Pertenece" seqName="seg_0"/>
-   <object objectType="Relation" objectID="38528758-9B77-87B6-0E87-C22AB8E87E8D" name="Posee" seqName="seg_0"/>
-   <object objectType="Relation" objectID="0A2E6405-E81B-4D4A-4B24-0894FA162FD0" name="Realiza" seqName="seg_0"/>
-   <object objectType="Hierarchy relation" objectID="73532CD8-0CBD-9D46-9032-3848DFDDE2A5" name="Hierarchy_1" seqName="seg_0"/>
-   <object objectType="Hierarchy relation" objectID="958E01E5-160B-671E-A894-036C9424F394" name="Hierarchy_2" seqName="seg_0"/>
-   <object objectType="Hierarchy relation" objectID="ABD336CB-41EE-76E0-D281-56205B71A80E" name="Hierarchy_3" seqName="seg_0"/>
-   <object objectType="Hierarchy relation" objectID="531E6C41-39F4-FF63-3786-70467E9FD308" name="Hierarchy_4" seqName="seg_0"/>
+   <object objectType="Entity" objectID="8F8EA2A1-8CA7-8B17-D169-A9871290EEAF" name="Centro" seqName="seg_0"/>
+   <object objectType="Entity" objectID="AF594E8D-41A5-6121-B2A6-A568EA74B040" name="Parte" seqName="seg_0"/>
+   <object objectType="Entity" objectID="53414689-FDB5-C686-BE40-63DE3B13C950" name="Trabajador" seqName="seg_0"/>
+   <object objectType="Entity" objectID="1F2C3CC3-6941-CB76-01A0-0FA3707B634C" name="Usuario" seqName="seg_0"/>
+   <object objectType="Entity" objectID="A617E93A-361E-98A0-9A6F-8399D5703927" name="Vehiculo" seqName="seg_0"/>
+   <object objectType="Entity" objectID="6CF3FB5C-B0A0-533B-1F7B-A3622F33CBF6" name="Viaje" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B49C0039-1C4F-1FB7-8C89-A5E4E040B234" name="Relation_3" seqName="seg_0"/>
+   <object objectType="Relation" objectID="84F2BF88-115B-B262-D91E-AD390592348B" name="Relation_4" seqName="seg_0"/>
+   <object objectType="Relation" objectID="97D57E57-1D6D-2F83-5CF6-C8774D292890" name="Relation_5" seqName="seg_0"/>
+   <object objectType="Relation" objectID="1BAE6A92-48CB-8FC2-9CAB-5BC67DF877AD" name="Relation_6" seqName="seg_0"/>
+   <object objectType="Relation" objectID="3F12C372-E63B-F3C0-B35C-D80FE632DB99" name="Relation_7" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>

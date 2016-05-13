@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F45A5AA2-47AF-A31D-3A97-2511CD863564" name="Vehiculo">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>A617E93A-361E-98A0-9A6F-8399D5703927</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="matricula" id="D80634B2-0548-E3F9-6D02-256E779B0EA4">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>965E9E7E-B415-D335-A02E-1B79159FFEC5</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35A9DE05-C8B7-84CA-DFCF-93F14D606E99" name="Vehiculo_PK">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>641CC427-5F62-40ED-09E6-9EEF0784AA98</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D80634B2-0548-E3F9-6D02-256E779B0EA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

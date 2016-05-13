@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A617E93A-361E-98A0-9A6F-8399D5703927" name="Vehiculo">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 10:56:17 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER-Relacional-Actualizado</ownerDesignName>
+<engineerTo>
+<item key="790F7506-F93A-DF10-E556-3648863FD72A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="matricula" id="965E9E7E-B415-D335-A02E-1B79159FFEC5">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:24:21 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER-Relacional-Actualizado</ownerDesignName>
+<engineerTo>
+<item key="790F7506-F93A-DF10-E556-3648863FD72A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="641CC427-5F62-40ED-09E6-9EEF0784AA98" name="Vehiculo PK">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:24:34 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER-Relacional-Actualizado</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="790F7506-F93A-DF10-E556-3648863FD72A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>965E9E7E-B415-D335-A02E-1B79159FFEC5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

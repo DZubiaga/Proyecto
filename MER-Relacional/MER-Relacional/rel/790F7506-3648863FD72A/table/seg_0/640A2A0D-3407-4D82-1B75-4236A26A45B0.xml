@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="640A2A0D-3407-4D82-1B75-4236A26A45B0" name="Centro">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>8F8EA2A1-8CA7-8B17-D169-A9871290EEAF</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idCentro" id="3CAB167C-95FF-21F8-9A5C-A7F1CE31B0A2">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>2D1A2355-A2EF-A4EE-9259-F864F24A5629</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="C279D9D8-D8FA-25DD-DBDA-ABC596294AFA">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>DC8BCB8A-8856-2005-088B-D7C6BD7D5948</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="A9666A9E-B49A-F126-4A5E-E9A30EB40CA2">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>396D5C68-B8BC-9227-9DFA-FE90AC6C832E</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="calle" id="AA4467A5-3195-6641-4F9F-D89FCD17416C">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>AE3245EC-9D50-13A7-24BB-CC55F55A8DA3</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="24D659F4-5869-2D0D-66A4-8BD1B8AAE99A">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>C5315CBF-3DB6-8507-762A-23F6884F4101</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codPostal" id="D3C64304-4121-3044-A99B-F38D69676D93">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>2423C1A7-CB27-3128-1F1A-F0D345236373</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciudad" id="F597FDD0-2395-C774-794F-6BEC56FF7DF8">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>02FF3C3B-0B9C-3205-E3D7-7E3822C92C47</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="provincia" id="FE7D112E-028A-0E40-C50C-FFE9A96E719A">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>3DE55093-AB30-D0CA-0595-0D97BE7696EC</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32DF225C-FE6C-3CEE-A4E5-E81F66C40311" name="Centro_PK">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>452990A4-ACDA-6B6D-0B43-991F163A2673</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CAB167C-95FF-21F8-9A5C-A7F1CE31B0A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

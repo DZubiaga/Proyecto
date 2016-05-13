@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05119B17-7175-1795-EC0E-A94C70F111C3" name="Viaje">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>6CF3FB5C-B0A0-533B-1F7B-A3622F33CBF6</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="albaran" id="F51B8887-D453-D625-E48B-F380F44B38E5">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>16FADAD2-7FE9-AB55-7FBC-52FF67D6A64C</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horaSalida" id="72905B5A-F799-B5BD-6458-8FA06B7F1A06">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>96E9F081-5406-887F-BC1F-008A7EECC65E</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horaLlegada" id="AF225315-7F48-FD77-88E6-4A846EB7FEA3">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>7F289229-DC37-BEC2-D118-E744D4DE48C8</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parte_idParte" id="83F55787-A286-45A1-4D48-D4F814196F58">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>1730C538-2610-7C7C-A2B4-8A2E4C14C019</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2C89C55-9C93-DD66-ACB1-9F441B609EBF" referredColumn="BB0D57C4-ADD8-E1E0-FB52-666805E3DD85"/>
+</associations>
+</Column>
+<Column name="Vehiculo_matricula" id="8DADB2EF-5BD7-2426-2F8E-FE2F74B52260">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>3C901E24-8F40-1DF0-DDD0-6256A8123B91</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E34E02F-BA5B-3766-2019-C6332832C16F" referredColumn="D80634B2-0548-E3F9-6D02-256E779B0EA4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="37490F4A-6CB1-93B1-D4F0-7EDD1F147D46" name="Viaje_PK">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>4273D2A0-E99D-94D4-FBB6-9C5396AD0934</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F51B8887-D453-D625-E48B-F380F44B38E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF75EFAD-C1ED-CC1B-9394-596297281A32" name="Viaje_Parte_FK">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>1BAE6A92-48CB-8FC2-9CAB-5BC67DF877AD</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83F55787-A286-45A1-4D48-D4F814196F58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="648882EE-8F3C-8A20-D9FA-3C15CCA6FF62" name="Viaje_Vehiculo_FK">
+<createdBy>1GPROG12</createdBy>
+<createdTime>2016-05-12 11:35:19 UTC</createdTime>
+<generatorID>3F12C372-E63B-F3C0-B35C-D80FE632DB99</generatorID>
+<ownerDesignName>Data-Modeler-Actualizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DADB2EF-5BD7-2426-2F8E-FE2F74B52260"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
