@@ -4,11 +4,11 @@ drop table partes cascade constraints;
 drop table viajes cascade constraints;
 drop table usuarios cascade constraints;
  
-DROP SYNONYM c ;
-DROP SYNONYM t ;
-DROP SYNONYM p ;
-DROP SYNONYM v ;
-DROP SYNONYM u ;
+DROP PUBLIC SYNONYM c ;
+DROP PUBLIC SYNONYM t;
+DROP PUBLIC SYNONYM p ;
+DROP PUBLIC SYNONYM v ;
+DROP PUBLIC SYNONYM u ;
 
 CREATE TABLE centros(
 idCentro NUMBER(3) 
@@ -117,8 +117,8 @@ xmlclob clob,
 CONSTRAINT info_idxml_pk PRIMARY KEY (idxml)
 );
  
-CREATE SYNONYM c FOR centros;
-CREATE SYNONYM t FOR trabajadores;
-CREATE SYNONYM p FOR partes;
-CREATE SYNONYM v FOR viajes;
-CREATE SYNONYM u FOR usuarios;
+CREATE PUBLIC SYNONYM c FOR centros;
+CREATE PUBLIC SYNONYM t FOR trabajadores;
+CREATE PUBLIC SYNONYM p FOR partes;
+CREATE PUBLIC SYNONYM v FOR viajes;
+CREATE PUBLIC SYNONYM u FOR usuarios;
